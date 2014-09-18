@@ -1,0 +1,57 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,300|Roboto+Slab:400,300&subset=latin,cyrillic");
+
+$sans: 'Roboto', sans-serif;
+$serif: 'Roboto Slab', serif;
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+@mixin h1($height, $line-height: $height, $color: $dark_grey) {
+  font-size: $height;
+  line-height: $line-height;
+  font-family: $serif;
+  font-weight: $light;
+  color: $color;
+  text-transform: uppercase;
+}
+
+@mixin copy($height: 15px, $line-height: 23px, $color: $grey) {
+  font-size: $height;
+  line-height: $line-height;
+  font-family: $sans;
+  font-weight: $light;
+  color: $color;
+}
+
+@mixin menu($color: $grey) {
+	@include breakpoint ($smartphone) {
+		li {
+			margin-right: 35px;
+		}//li
+	}
+	@include breakpoint ($tablet) {
+		li {
+			margin-right: 25px;
+			a {
+				color: $color;
+				font-size: 11px;
+			  line-height: 24px;
+			  font-family: $sans;
+			  font-weight: $regular;
+			  text-decoration: none;
+			  text-transform: uppercase;
+			  &:hover {
+				  color: $dark_grey;
+			  }//hover
+			}//a			
+		}//li
+	}//breakpoint table
+	@include breakpoint ($desktop) {
+		li {
+			margin-right: 35px;
+			a {
+				font-size: 14px;
+			}//a
+		}//li
+	}
+}
