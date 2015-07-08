@@ -112,12 +112,12 @@
 		<?php print render($page['facts']); ?>
 		<a name="whatwedo" class="anchor"></a>
 		<?php print render($page['whatwedo']); ?>
-		<a name="feedback" class="anchor"></a>
-		<?php print render($page['feedback']); ?>
-		<a name="works" class="anchor"></a>
-		<?php print render($page['works']); ?>
 		<a name="services" class="anchor"></a>
 		<?php print render($page['services']); ?>
+		<a name="works" class="anchor"></a>
+		<?php print render($page['works']); ?>
+		<a name="feedback" class="anchor"></a>
+		<?php print render($page['feedback']); ?>
 		<a name="responsive" class="anchor"></a>
 		<?php print render($page['responsive']); ?>
 		<a name="video" class="anchor"></a>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,700,300|Roboto+Slab:400,300&subset=latin,cyrillic");
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
 *, *:before, *:after {
@@ -2195,23 +2196,30 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f20c"; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000333}}
+.loading {
+  opacity: 0;
+  height: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000337}}
 * {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000344}}
 a.anchor {
   display: block;
   width: 100%;
   height: 0;
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000346}}
-#mobile-menu {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000351}}
+#mobile-menu,
+#first-time {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000356}}
 #page-header {
   width: 100%;
   float: right;
@@ -2225,7 +2233,7 @@ a.anchor {
   background: #f7f7f7;
   position: fixed; }
   @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000359}}
     #page-header .site-name {
       width: 40.42553%;
       float: left;
@@ -2233,25 +2241,25 @@ a.anchor {
       margin-left: 8.51064%;
       clear: none;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000363}}
       #page-header .site-name a {
         width: 149px;
         padding-top: 24px;
         background-image: url(../images/logo_mobile.png); } }
   @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000359}}
     #page-header .site-name {
       width: 14.89362%;
       float: left;
       margin-right: -100%;
       margin-left: 8.51064%;
       clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000371}}
       #page-header .site-name a {
         width: 100px;
         padding-top: 101px;
         background-image: url(../images/logo.png); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000377}}
   #page-header .site-name a {
     height: 0;
     overflow: hidden;
@@ -2259,15 +2267,15 @@ a.anchor {
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000386}}
   #page-header nav {
     margin-top: 22px; }
     @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000386}}
       #page-header nav {
         display: none; } }
     @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000386}}
       #page-header nav {
         width: 65.95745%;
         float: left;
@@ -2276,7 +2284,7 @@ a.anchor {
         clear: none;
         display: block; } }
   @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000397}}
     #page-header #mobile-trigger {
       width: 6.38298%;
       float: left;
@@ -2284,22 +2292,22 @@ a.anchor {
       margin-left: 85.10638%;
       clear: none; } }
   @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000397}}
     #page-header #mobile-trigger {
       display: none !important; } }
   @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000356}}
     #page-header {
       background-color: #107272; } }
   @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\0000356}}
     #page-header {
       background-color: #f7f7f7; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003118}}
 #page-header.small {
   background-color: #107272; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003119}}
   #page-header.small .site-name {
     width: 14.89362%;
     float: left;
@@ -2307,12 +2315,12 @@ a.anchor {
     margin-left: 8.51064%;
     clear: none;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003122}}
     #page-header.small .site-name a {
       width: 149px;
       padding-top: 24px;
       background-image: url(../images/logo_mobile.png); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003128}}
   #page-header.small nav {
     width: 65.95745%;
     float: right;
@@ -2348,7 +2356,7 @@ a.anchor {
         #page-header.small nav li a {
           font-size: 14px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003136}}
 #hero {
   width: 100%;
   float: right;
@@ -2357,7 +2365,7 @@ a.anchor {
   clear: none;
   clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003141}}
 #content {
   width: 100%;
   float: right;
@@ -2367,11 +2375,11 @@ a.anchor {
   clear: both;
   margin-top: 70px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003147}}
 .l-main {
   background-color: #ccc; }
   @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003147}}
     .l-main {
       width: 100%;
       float: right;
@@ -2380,7 +2388,7 @@ a.anchor {
       clear: none;
       clear: both; } }
   @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003147}}
     .l-main {
       width: 82.97872%;
       float: left;
@@ -2389,7 +2397,7 @@ a.anchor {
       clear: none;
       clear: both; } }
   @media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003147}}
     .l-main {
       width: 65.95745%;
       float: left;
@@ -2398,46 +2406,226 @@ a.anchor {
       clear: none;
       clear: both; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003163}}
+#block-block-1 {
+  margin-bottom: -38px; }
+  @media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003163}}
+    #block-block-1 {
+      width: 82.97872%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.51064%;
+      clear: none; } }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003163}}
+    #block-block-1 {
+      width: 82.97872%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.51064%;
+      clear: none; } }
+  @media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003163}}
+    #block-block-1 {
+      width: 65.95745%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 17.02128%;
+      clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003174}}
+  #block-block-1 .block__title {
+    font-size: 35px;
+    line-height: 48px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    color: #31393e;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+    background-image: url(../images/sep.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003180}}
+  #block-block-1 .block__content p {
+    font-size: 15px;
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #8c8c8c; }
+
 @media (min-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003157}}
-  #block-block-1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003187}}
+  #block-block-2 {
     width: 82.97872%;
     float: left;
     margin-right: -100%;
     margin-left: 8.51064%;
-    clear: none; } }
+    clear: none;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003191}}
+    #block-block-2 .icon-wrapper {
+      float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003193}}
+      #block-block-2 .icon-wrapper .icon.large {
+        font-size: 35px;
+        color: #107272; } }
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003157}}
-  #block-block-1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003187}}
+  #block-block-2 {
     width: 82.97872%;
     float: left;
     margin-right: -100%;
     margin-left: 8.51064%;
     clear: none; } }
 @media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003157}}
-  #block-block-1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003187}}
+  #block-block-2 {
     width: 65.95745%;
     float: left;
     margin-right: -100%;
     margin-left: 17.02128%;
-    clear: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003168}}
-#block-block-1 .block__title {
-  font-size: "35px";
-  line-height: "48px";
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
-  color: #31393e;
-  text-transform: uppercase;
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003173}}
-#block-block-1 .block__content p {
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003208}}
+    #block-block-2 .block__content .service:nth-child(odd) {
+      width: 40.42553%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none;
+      text-align: right;
+      clear: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003212}}
+      #block-block-2 .block__content .service:nth-child(odd) .icon-wrapper {
+        float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003216}}
+    #block-block-2 .block__content .service:nth-child(even) {
+      width: 40.42553%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      text-align: left;
+      clear: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003220}}
+      #block-block-2 .block__content .service:nth-child(even) .icon-wrapper {
+        float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003224}}
+    #block-block-2 .block__content .service .icon-wrapper {
+      width: 35px;
+      height: 35px;
+      background: #107272;
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003232}}
+      #block-block-2 .block__content .service .icon-wrapper .icon.large {
+        font-size: 32px;
+        width: 35px;
+        height: 35px;
+        color: #fff;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003247}}
+#block-block-2 .block__content p {
   font-size: 15px;
   line-height: 23px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #8c8c8c; }
+  color: #8c8c8c;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003251}}
+#block-block-2 .block__content h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #31393e;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003255}}
+#block-block-2 .block__title {
+  font-size: 35px;
+  line-height: 48px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #31393e;
+  text-transform: uppercase;
+  padding-bottom: 29px;
+  background-image: url(../images/sep.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003262}}
+.l-region--services {
+  background-color: #f7f7f7;
+  z-index: -1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003267}}
+.l-region--feedback {
+  background-color: #107272;
+  padding: 40px 0; }
+  @media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003268}}
+    .l-region--feedback #block-views-testimonials-block {
+      width: 82.97872%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.51064%;
+      clear: none;
+      text-align: center; } }
+  @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003268}}
+    .l-region--feedback #block-views-testimonials-block {
+      width: 82.97872%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.51064%;
+      clear: none; } }
+  @media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003268}}
+    .l-region--feedback #block-views-testimonials-block {
+      width: 65.95745%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 17.02128%;
+      clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003281}}
+  .l-region--feedback .block__title {
+    font-size: 18px;
+    line-height: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003286}}
+  .l-region--feedback .views-field-body p {
+    font-size: 35px;
+    line-height: 48px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003288}}
+    .l-region--feedback .views-field-body p:before, .l-region--feedback .views-field-body p:after {
+      content: "“";
+      font-size: 36px;
+      opacity: .3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003294}}
+  .l-region--feedback .views-field-field-feedback-author {
+    font-size: 14px;
+    line-height: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/rspsf\.styles\.scss}line{font-family:\00003301}}
+#map_canvas {
+  min-height: 200px; }
 
 @media (min-width: 320px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/test\/www\/sites\/all\/themes\/rspsf\/scss\/variables\/_typography\.scss}line{font-family:\0000328}}

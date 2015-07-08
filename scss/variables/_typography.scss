@@ -55,3 +55,10 @@ $bold: 700;
 		}//li
 	}
 }
+
+@mixin sep(){
+	padding-bottom: 29px;
+	background-image: url(../images/sep.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
